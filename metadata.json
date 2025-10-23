@@ -1,0 +1,5 @@
+{
+  "name": "React Domain Showcase",
+  "description": "An application demonstrating the versatility of React across five major project domains: SPAs, Data Visualization, Mobile (simulated), SEO-focused sites (simulated), and Immersive Experiences using Gemini.",
+  "requestFramePermissions": []
+}

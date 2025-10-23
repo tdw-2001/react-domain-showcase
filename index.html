@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Fusion: Advanced React Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable dark mode using a class
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': '#00BFFF',
+              // Dark theme colors
+              'brand-bg-dark': '#111827',
+              'brand-bg-light': '#1F2937',
+              'brand-border': '#374151',
+              'brand-text-primary': '#F9FAFB',
+              'brand-text-secondary': '#D1D5DB',
+              // Light theme colors
+              'brand-bg-light-main': '#F9FAFB',
+              'brand-bg-light-accent': '#FFFFFF',
+              'brand-border-light': '#E5E7EB',
+              'brand-text-primary-light': '#111827',
+              'brand-text-secondary-light': '#4B5563',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.26.0",
+    "three": "https://esm.sh/three@0.165.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.16.8",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@9.108.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.24.1",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <div id="modal-root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
